@@ -13,7 +13,7 @@ print('Você digitou o número', chuteString)
 
 if numeroSecreto == chute:
     print('Você acertou!')
-
+elif(chute>numeroSecreto):
+    print('Você errou! o numero é menor')
 else:
-    print('Você errou!')
-
+    print('você errou! o numero secreto é mior')
